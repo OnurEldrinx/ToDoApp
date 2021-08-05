@@ -305,7 +305,11 @@ namespace ToDoApp
                 }
             }
 
-            titleR = "";
+            if  (counter != 0){
+
+                titleR = "";
+
+            }
 
             // Search InProgress Line
             foreach (var currentCard in InProgress.Cards)
@@ -375,7 +379,12 @@ namespace ToDoApp
                 }
             }
 
-            titleR = "";
+            if  (counter != 0){
+
+                titleR = "";
+
+            }
+            
 
             // Search Done Line
             foreach (var currentCard in Done.Cards)
